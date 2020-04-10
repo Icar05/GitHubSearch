@@ -1,4 +1,4 @@
-package com.Icar05.githubsearch.presentation.app.di.module
+package com.Icar05.githubsearch.presentation.di.module
 
 import android.app.Application
 import android.content.Context

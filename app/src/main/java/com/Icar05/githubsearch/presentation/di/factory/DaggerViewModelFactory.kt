@@ -1,4 +1,4 @@
-package com.Icar05.githubsearch.presentation.app.di.factory
+package com.Icar05.githubsearch.presentation.di.factory
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider

@@ -4,7 +4,7 @@ import androidx.annotation.LayoutRes
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.Icar05.githubsearch.presentation.app.di.factory.DaggerViewModelFactory
+import com.Icar05.githubsearch.presentation.di.factory.DaggerViewModelFactory
 import javax.inject.Inject
 
 abstract class BaseFragment(@LayoutRes contentLayoutId: Int) : Fragment(contentLayoutId) {

@@ -10,7 +10,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.FragmentManager
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.Icar05.githubsearch.presentation.app.di.factory.DaggerViewModelFactory
+import com.Icar05.githubsearch.presentation.di.factory.DaggerViewModelFactory
 import javax.inject.Inject
 
 

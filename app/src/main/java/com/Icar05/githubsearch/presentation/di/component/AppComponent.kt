@@ -1,11 +1,11 @@
-package com.Icar05.githubsearch.presentation.app.di.component
+package com.Icar05.githubsearch.presentation.di.component
 
 import android.app.Application
 import com.Icar05.githubsearch.presentation.app.BaseArchApplication
-import com.Icar05.githubsearch.presentation.app.di.module.AppModule
-import com.Icar05.githubsearch.presentation.app.di.module.BuilderModule
-import com.Icar05.githubsearch.presentation.app.di.module.ViewModelFactoryModule
-import com.Icar05.githubsearch.presentation.app.di.module.ViewModelModule
+import com.Icar05.githubsearch.presentation.di.module.AppModule
+import com.Icar05.githubsearch.presentation.di.module.BuilderModule
+import com.Icar05.githubsearch.presentation.di.module.ViewModelFactoryModule
+import com.Icar05.githubsearch.presentation.di.module.ViewModelModule
 import dagger.BindsInstance
 import dagger.Component
 import dagger.android.AndroidInjectionModule

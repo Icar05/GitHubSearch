@@ -1,4 +1,4 @@
-package com.Icar05.githubsearch.presentation.app.di.scope
+package com.Icar05.githubsearch.presentation.di.scope
 
 import androidx.lifecycle.ViewModel
 import dagger.MapKey

@@ -1,4 +1,4 @@
-package com.Icar05.githubsearch.extension
+package com.Icar05.githubsearch.domain.extension
 
 import com.Icar05.githubsearch.data.model.GitHabInfoEntity
 import com.Icar05.githubsearch.domain.model.SearchItem

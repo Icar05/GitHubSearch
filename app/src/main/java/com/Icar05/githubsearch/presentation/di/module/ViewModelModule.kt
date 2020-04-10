@@ -1,7 +1,7 @@
-package com.Icar05.githubsearch.presentation.app.di.module
+package com.Icar05.githubsearch.presentation.di.module
 
 import androidx.lifecycle.ViewModel
-import com.Icar05.githubsearch.presentation.app.di.scope.ViewModelKey
+import com.Icar05.githubsearch.presentation.di.scope.ViewModelKey
 import com.Icar05.githubsearch.presentation.viewmodel.SearchViewModel
 import dagger.Binds
 import dagger.Module

@@ -1,7 +1,7 @@
 package com.Icar05.githubsearch.presentation.app
 
 import android.app.Application
-import com.Icar05.githubsearch.presentation.app.di.component.DaggerAppComponent
+import com.Icar05.githubsearch.presentation.di.component.DaggerAppComponent
 
 import dagger.android.AndroidInjector
 import dagger.android.DispatchingAndroidInjector

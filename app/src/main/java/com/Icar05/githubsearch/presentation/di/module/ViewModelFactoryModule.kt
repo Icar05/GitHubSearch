@@ -1,7 +1,7 @@
-package com.Icar05.githubsearch.presentation.app.di.module
+package com.Icar05.githubsearch.presentation.di.module
 
 import androidx.lifecycle.ViewModelProvider
-import com.Icar05.githubsearch.presentation.app.di.factory.DaggerViewModelFactory
+import com.Icar05.githubsearch.presentation.di.factory.DaggerViewModelFactory
 import dagger.Binds
 import dagger.Module
 

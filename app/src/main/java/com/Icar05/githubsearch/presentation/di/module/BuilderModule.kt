@@ -1,6 +1,6 @@
-package com.Icar05.githubsearch.presentation.app.di.module
+package com.Icar05.githubsearch.presentation.di.module
 
-import com.Icar05.githubsearch.presentation.app.di.scope.PerFragment
+import com.Icar05.githubsearch.presentation.di.scope.PerFragment
 import com.Icar05.githubsearch.presentation.ui.activity.MainActivity
 import com.Icar05.githubsearch.presentation.ui.fragment.SearchFragment
 import com.icar05.androidbasearch.di.scopes.PerActivity

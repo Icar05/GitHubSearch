@@ -4,8 +4,8 @@ package com.Icar05.githubsearch.data.dataProviders
 import com.Icar05.githubsearch.data.storage.Database
 import com.Icar05.githubsearch.domain.dataProviders.LocalDataProvider
 import com.Icar05.githubsearch.domain.model.SearchItem
-import com.Icar05.githubsearch.extension.toGitHubInfoEntity
-import com.Icar05.githubsearch.extension.toSearchItem
+import com.Icar05.githubsearch.domain.extension.toGitHubInfoEntity
+import com.Icar05.githubsearch.domain.extension.toSearchItem
 import io.reactivex.Observable
 
 class LocalDataProviderImpl (
