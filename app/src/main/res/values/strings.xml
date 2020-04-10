@@ -1,11 +1,16 @@
 <resources>
-    <string name="app_name">GitHubSearchExample</string>
+    <string name="app_name">AndroidBaseArch</string>
     <string name="no_repos">No repos found</string>
     <string name="et_text_hint">Type name of repo here</string>
     <string name="loading_data">Loading, please wait &#8230;</string>
     <string name="trouble_internet_message">No internet connection.</string>
     <string name="ok">OK</string>
     <string name="empty_query_warning">Fill text field!</string>
+    <string name="unknown_error">Unknown Error</string>
+    <string name="error_title">Error</string>
+    <string name="back">Back</string>
+    <string name="search">Search</string>
+    <string name="test">Test</string>
 
 
     <!--mock xml values-->
@@ -14,6 +19,4 @@
     <string name="mock_description">This is easy implementation of rating bar, simple and convenient.  AutoAdapter is a WIP project that aims to auto generate adapter classes based on common specifications and strategies</string>
     <string name="mock_url">https://api.github.com/repos/Icar05/HandyRatingBar</string>
     <string name="mock_language">Kotlin</string>
-
-
 </resources>
