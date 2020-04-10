@@ -48,6 +48,13 @@ buildscript {
                 daggerCompiler     : 'com.google.dagger:dagger-compiler:2.24'
         ]
 
+        koin = [
+                koinScope          : "org.koin:koin-androidx-scope:2.1.5",
+                koinViewModel      : "org.koin:koin-androidx-viewmodel:2.1.5",
+                koinFragment       : "org.koin:koin-androidx-fragment:2.1.5",
+                koinExtension      : "org.koin:koin-androidx-ext:2.1.5"
+        ]
+
         //Room
         room = [
                 roomRuntime        : "androidx.room:room-runtime:2.2.5",

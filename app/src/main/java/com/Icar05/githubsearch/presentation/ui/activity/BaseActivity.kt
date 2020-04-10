@@ -8,16 +8,11 @@ import android.view.inputmethod.InputMethodManager
 import android.widget.EditText
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.FragmentManager
-import androidx.lifecycle.ViewModel
-import androidx.lifecycle.ViewModelProvider
-import com.Icar05.githubsearch.presentation.di.factory.DaggerViewModelFactory
-import javax.inject.Inject
 
 
 abstract class BaseActivity : AppCompatActivity(), FragmentManager.OnBackStackChangedListener {
     
-    @Inject
-    lateinit var factory: DaggerViewModelFactory
+   
     
     protected abstract fun getLayoutId(): Int
     
@@ -34,10 +29,7 @@ abstract class BaseActivity : AppCompatActivity(), FragmentManager.OnBackStackCh
     
     override fun onBackStackChanged() = shouldDisplayHomeUp()
     
-    @Suppress("UNCHECKED_CAST")
-    fun getViewModel(viewModel: Class<out ViewModel>): ViewModel {
-        return ViewModelProvider(this, factory).get(viewModel)
-    }
+   
     
     private fun shouldDisplayHomeUp() {
         val canBack: Boolean = supportFragmentManager.backStackEntryCount > 0

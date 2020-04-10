@@ -12,9 +12,8 @@ import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.schedulers.Schedulers
 import java.util.concurrent.TimeUnit
-import javax.inject.Inject
 
-class SearchViewModel @Inject constructor(
+class SearchViewModel  constructor(
     private val getReposInteractor: GetReposInteractor,
     private val searchReposInteractor: SearchReposInteractor,
     private val storeReposInteractor: StoreReposInteractor

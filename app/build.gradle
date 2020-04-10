@@ -50,12 +50,11 @@ dependencies {
     implementation navigation.navFragment
     implementation navigation.navUi
 
-    /* dagger */
-    implementation dagger.daggerSupAndroid
-    implementation dagger.daggerSupAndroid
-    kapt dagger.daggerProcessor
-    kapt dagger.daggerCompiler
-
+    /* koin */
+    implementation koin.koinScope
+    implementation koin.koinViewModel
+    implementation koin.koinFragment
+    implementation koin.koinExtension
 
     /* network */
     implementation network.log
