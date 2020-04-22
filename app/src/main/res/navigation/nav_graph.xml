@@ -9,7 +9,7 @@
 
     <fragment
         android:id="@+id/fragment_search"
-        android:name="com.Icar05.githubsearch.presentation.ui.fragment.SearchFragment"
+        android:name="com.icar05.githubsearch.presentation.ui.fragment.SearchFragment"
         android:label="fragment_search"
         tools:layout="@layout/fragment_search" >
     </fragment>

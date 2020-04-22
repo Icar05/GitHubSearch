@@ -33,7 +33,7 @@
         android:layout_margin="5dp"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
-        android:src="@drawable/button_search_active"
+        android:src="@drawable/button_search_inactive"
         android:visibility="gone"
 
         app:layout_constraintEnd_toEndOf="@+id/gdEndContent"
@@ -56,7 +56,7 @@
 
         tools:targetApi="lollipop" />
 
-    <com.Icar05.githubsearch.presentation.custom.EmptyRecyclerView
+    <com.icar05.githubsearch.presentation.custom.EmptyRecyclerView
         android:id="@+id/eRVSearch"
         android:layout_width="0dp"
         android:layout_height="0dp"
@@ -70,7 +70,7 @@
         app:layout_constraintTop_toBottomOf="@+id/bgSearch"
         app:layout_constraintBottom_toBottomOf="parent" >
 
-    </com.Icar05.githubsearch.presentation.custom.EmptyRecyclerView>
+    </com.icar05.githubsearch.presentation.custom.EmptyRecyclerView>
 
 
     <ProgressBar

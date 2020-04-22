@@ -37,6 +37,8 @@ dependencies {
 
     /* kotlin */
     implementation kotlin_language.stdlib
+    implementation kotlin_language.coroutines_core
+    implementation kotlin_language.coroutines_android
 
     /* test */
     testImplementation tests.junit
@@ -51,20 +53,15 @@ dependencies {
     implementation navigation.navUi
 
     /* koin */
-    implementation koin.koinScope
-    implementation koin.koinViewModel
-    implementation koin.koinFragment
-    implementation koin.koinExtension
+    implementation koin.koin_core
+    implementation koin.koin_viewmodel
 
     /* network */
     implementation network.log
     implementation network.converter
-    implementation network.adapter
     implementation network.okDownload
     implementation network.retrofit
-
-    /* rx */
-    implementation rx.rxAndroid
+    implementation network.adapter
 
     /* room */
     implementation room.roomRuntime
